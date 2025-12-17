@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Harga Sembako Modern</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+      min-height: 100vh;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      color: #2c3e50;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      color: #555;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 30px 15px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      width: 100%;
+      max-width: 700px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+    }
+
+    th {
+      background: #3498db;
+      color: white;
+      border-radius: 8px 8px 0 0;
+    }
+
+    tr:nth-child(even) {
+      background: #f4f6f8;
+    }
+
+    tr:hover {
+      background: #eaf3ff;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: white;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      th, td {
+        padding: 10px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💰 Harga Sembako</h1>
+    <p>Update harga kebutuhan pokok sehari-hari</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <table>
+        <tr>
+          <th>Nama Barang</th>
+          <th>Harga</th>
+        </tr>
+        <tr>
+          <td>Beras</td>
+          <td class="price">Rp 14.000 / kg</td>
+        </tr>
+        <tr>
+          <td>Gula Pasir</td>
+          <td class="price">Rp 15.000 / kg</td>
+        </tr>
+        <tr>
+          <td>Minyak Goreng</td>
+          <td class="price">Rp 16.000 / liter</td>
+        </tr>
+        <tr>
+          <td>Telur Ayam</td>
+          <td class="price">Rp 28.000 / kg</td>
+        </tr>
+        <tr>
+          <td>Daging Ayam</td>
+          <td class="price">Rp 35.000 / kg</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 | Web Harga Sembako Sederhana
+  </footer>
+
+</body>
+</html>
